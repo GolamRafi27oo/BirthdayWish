@@ -1,5 +1,5 @@
 var sound = document.getElementById('sound');
-
+var top = document.getElementById('top');
 
 var audio = new Audio("image/Thousand Years.mp3");
 
@@ -28,25 +28,34 @@ document.getElementById('sound').onclick = function() {
     </div>
     <div class="letter">
         <div>
+            <h1>A Letter For You</h1>
             <p>
                 <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  A Letter For You
+                  OPEN
                 </a>
             </p>
             <div class="collapse" id="collapseExample">
                 <div class="card-body text">
-                    <h2>Dear X</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores laboriosam eaque voluptate mollitia, impedit vero neque excepturi delectus, 
-                        quod et officiis molestiae porro sequi veniam laudantium eveniet obcaecati deserunt esse.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas voluptatum voluptatibus cum, perspiciatis ad accusamus sed! Labore debitis molestias neque iure animi nisi magnam distinctio! Alias nemo dolorem placeat?
+                    <h2>Dear Love</h2>
+                    <p>Love of my heart, I wise you with all my soul that you have a nice day, that this day you receive the sincere greetings of the people who love you and accept you as you are.
+                    </br>
+                    </br>
+                    With
                     </p>
+                    <img src="image/heart2.gif" alt="">
                 </div>
             </div>
         </div>
+    </div>
+    <div>
+        <img src="image/giphy.gif" alt="">
+        <img class="man" src="image/man.gif" alt="">
     </div>
 </div>
     
     `;
     audio.play();
+
+    document.getElementById("top").className = "topremove";
+   
 }
- 

@@ -15,7 +15,10 @@ body{
 		background-position: 0% 50%;
 	}
 }
-
+.topremove{
+    background-color: none;
+    font-size: 0;
+}
 .top{
     margin-top: 45vh;
     margin-bottom: 45vh;
@@ -84,7 +87,10 @@ img{
 }
 .letter{
     margin: 5% 10% 5% 10%;
-   }
+}
+.letter h1{
+    text-align: center;
+}
 .letter p a{
     color: rgba(0, 0, 0, 0.897);
     font-size: 35px;
@@ -114,8 +120,19 @@ img{
     border: #000 1px solid;
 }
 .card-body p, h2{
-    padding: 15px;
+    padding: 15px 15px 0px 15px;   
 }
+.card-body img{
+    width: 50px;
+    height: 50px;
+    padding-left: 15px; 
+    padding-bottom: 15px;
+}
+.man{
+    display: flex;
+    float: right;
+}
+
 
 @media screen and (max-width:785px) {
     img{
@@ -140,6 +157,9 @@ img{
         margin: 5%;
     }
     .letter p a{
+        font-size: 20px;
+    }
+    .letter h1{
         font-size: 20px;
     }
     .letter h2{
