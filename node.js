@@ -13,11 +13,11 @@ document.getElementById('sound').onclick = function() {
         <h2>test124</h2>
     </div>
 </div>
-<div>
-    <div>
+<div class="main"> 
+    <div class="duck">
         <img src="image/party.gif" alt="">
     </div>
-    <div class="footer">
+    <div class="footer cake">
         <img src="image/cake.gif" alt="">
     </div>
     <div class="footer fly">
