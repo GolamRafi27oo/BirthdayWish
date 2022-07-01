@@ -12,7 +12,7 @@ document.getElementById('sound').onclick = function() {
 var show = document.getElementById('show');
 
 show.onclick = function () {
-    if(document.getElementById('passcode').value == 1012002){
+    if(document.getElementById('passcode').value == 000){
         document.getElementById('test').innerHTML = `
         <div id="start" class="image">
         <img src="image/bd.gif" alt="">
