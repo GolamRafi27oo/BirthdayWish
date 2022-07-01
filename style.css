@@ -16,34 +16,22 @@ body{
 	}
 }
 .topremove{
-    background-color: none;
     font-size: 0;
+}
+.topremove input, button{
+    background-color:none;
+    border: none;
+    cursor:pointer;
 }
 .top{
     margin-top: 45vh;
     margin-bottom: 45vh;
-    margin-left: 5;
     display: flex;
     justify-content: center;
 }
 .top ul{
     display: flex;
     list-style: none;
-}
-.top ul li{
-    padding-right: 50px;
-}
-.top ul li a{
-    text-decoration: none;
-    color: #000;
-    font-size: 25px;
-    border-radius: 5px;
-    border: #000 1px solid;
-    padding: 10px;
-    background: linear-gradient(-40deg, #ee7752, #a646e0, #23d549, #23d5ab);
-    animation: bodyColor 15s ease-out infinite;
-    background-size: 800% 800%;
-    font-family: 'Grape Nuts', cursive;
 }
 .hero .image{
     padding-top: 10%;
