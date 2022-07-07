@@ -15,14 +15,6 @@ body{
 		background-position: 0% 50%;
 	}
 }
-.topremove{
-    font-size: 0;
-}
-.topremove input, button{
-    background-color:none;
-    border: none;
-    cursor:pointer;
-}
 .top{
     margin-top: 45vh;
     margin-bottom: 45vh;
@@ -32,6 +24,14 @@ body{
 .top ul{
     display: flex;
     list-style: none;
+}
+.top ul div{
+    padding-left: 10px;
+}
+.top ul input{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
 }
 .hero .image{
     padding-top: 10%;
@@ -66,6 +66,7 @@ img{
 }
 .duck{
     margin-top: 4%;
+    margin-left: -2%;
 }
 .footer{
     display: flex;
