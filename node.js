@@ -39,7 +39,8 @@ show.onclick = function () {
                         <div class="card-body text">
 
                             <h2>Dear X</h2>              <!--Edit name-->
-                            <p>write your letter         <!--Edit letter-->
+                            <p>write your letter .....................................
+                            ..........................................................<!--Edit letter-->
                             
                             </br>
                             </br>
